@@ -37,7 +37,7 @@ const (
 	DefaultRedirects = 10
 	// DefaultTimeout is the default amount of time an Attacker waits for a request
 	// before it times out.
-	DefaultTimeout = 30 * time.Second
+	DefaultTimeout = 60 * time.Second
 	// DefaultConnections is the default amount of max open idle connections per
 	// target host.
 	DefaultConnections = 10000
